@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../components/choose-language.dart';
+import '../components/translate-text.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key, this.title}) : super(key: key);
@@ -21,10 +22,14 @@ class _HomePageState extends State<HomePage> {
         elevation: 0.0,
       ),
       body: Column(
-          children: <Widget>[
+        children: <Widget>[
           ChooseLanguage(),
-      ],
-    ),
+          Container(
+            margin: EdgeInsets.only(bottom: 8.0),
+            child: TranslateText(),
+          ),
+        ],
+      ),
     );
   }
 }
