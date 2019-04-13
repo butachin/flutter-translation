@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../components/choose-language.dart';
 import '../components/translate-text.dart';
+import '../components/list-translate.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key, this.title}) : super(key: key);
@@ -28,6 +29,7 @@ class _HomePageState extends State<HomePage> {
             margin: EdgeInsets.only(bottom: 8.0),
             child: TranslateText(),
           ),
+          ListTranslate(),
         ],
       ),
     );
