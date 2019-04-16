@@ -108,7 +108,7 @@ class _ListTranslateState extends State<ListTranslate> {
               icon: Icon(
                 _items[index].isStarred ? Icons.star : Icons.star_border,
                 size: 23.0,
-                color: _items[index].isStarred ? Colors.blue[600] : Colors.grey[700],
+                color: _items[index].isStarred ? Colors.orange[600] : Colors.grey[700],
               ),
             ),
           ],

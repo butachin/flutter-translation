@@ -98,7 +98,7 @@ class _ChooseLanguageState extends State<ChooseLanguage> {
                   child: Text(
                     this._firstLanguage.name,
                     style: TextStyle(
-                      color: Colors.blue[600],
+                      color: Colors.orange[600],
                       fontSize: 15.0,
                     ),
                   ),
@@ -127,7 +127,7 @@ class _ChooseLanguageState extends State<ChooseLanguage> {
                   child: Text(
                     this._secondLanguage.name,
                     style: TextStyle(
-                      color: Colors.blue[600],
+                      color: Colors.orange[600],
                       fontSize: 15.0,
                     ),
                   ),

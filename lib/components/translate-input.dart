@@ -90,7 +90,7 @@ class _TranslateInputState extends State<TranslateInput> {
                 alignment: Alignment.centerLeft,
                 child: Text(
                   this._textTranslated,
-                  style: TextStyle(color: Colors.blue[700]),
+                  style: TextStyle(color: Colors.orange[700]),
                 ),
               ),
             ),

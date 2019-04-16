@@ -206,7 +206,7 @@ class _LanguagePageState extends State<LanguagePage> {
           SliverStickyHeader(
             header: Container(
               height: 60.0,
-              color: Colors.blue[600],
+              color: Colors.orange[600],
               padding: EdgeInsets.symmetric(horizontal: 16.0),
               alignment: Alignment.centerLeft,
               child: Text(
@@ -231,7 +231,7 @@ class _LanguagePageState extends State<LanguagePage> {
           SliverStickyHeader(
             header: Container(
               height: 60.0,
-              color: Colors.blue[600],
+              color: Colors.orange[600],
               padding: EdgeInsets.symmetric(horizontal: 16.0),
               alignment: Alignment.centerLeft,
               child: Text(
@@ -283,7 +283,7 @@ class _LanguagePageState extends State<LanguagePage> {
                 hintText: "Search",
                 border: InputBorder.none,
                 focusedBorder: UnderlineInputBorder(
-                    borderSide: BorderSide(color: Colors.blue[600])),
+                    borderSide: BorderSide(color: Colors.orange[600])),
                 prefixIcon: Icon(
                   Icons.search,
                   size: 24.0,
